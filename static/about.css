@@ -1,0 +1,65 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #007bff;
+}
+
+nav {
+    background-color: #007bff;
+    padding: 1em 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero-section {
+    background: linear-gradient(-45deg, #007bff, #00d4ff, #007bff, #00d4ff);
+    background-size: 400% 400%;
+    animation: gradientBackground 15s ease infinite;
+    padding: 100px 0;
+}
+
+@keyframes gradientBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+p, ol {
+    text-align: center;
+    margin: 20px 0;
+}
+
+ol {
+    list-style-position: inside;
+}
